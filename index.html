@@ -1,0 +1,238 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bunny Dress Up</title>
+<style>
+
+body{
+  background-color: #cc9ad6;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+img {
+  position: absolute;
+  margin-left: 15%;
+display:inline-block;
+  height:100%;
+}
+
+
+button{
+  margin-top:20%;
+}
+
+ul{
+  list-style-type: none;
+  display:inline-block;
+}
+
+
+character{
+z-index: -1000;   
+}
+
+.shirt{
+  visibility:hidden;
+  z-index: 2;
+}
+
+.pant{
+  visibility:hidden;
+  z-index: 1;
+  }
+
+  body {
+        margin: 0;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333;
+        background-color: #fff;
+  padding-left: 15px;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    
+    .btn-default {
+        color: #333;
+        background-color: #fff;
+        border-color: #ccc;
+    }
+    
+    h1{
+        font-size: 36px;
+    }
+    
+    h1{
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+    }
+    
+    h1 small{
+        font-size: 65%;
+    }
+    
+    h1 small {
+        font-weight: 400;
+        line-height: 1;
+        color: #777;
+        display: block;
+       padding-top: 15px;
+    }
+    .specific{
+      background-color: #fff;
+    }
+
+p a{
+  padding: 5px;
+}
+</style>
+
+<link rel= "stylesheet" type="text/css" href="dressup.css">
+
+ <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+<script src="dressup.js"></script>
+<script type="text/javascript">
+
+</script>
+
+</head>
+
+<body>
+
+<h1>First Select your Bot Shape. Then Click the bot shape you like to edit it.</h1>
+<p>Click the > to see other bot shapes.</p>
+
+
+<ul>
+<li><button style="display:none" class="btn btn-default" id="shirt_button" type="button" >Face</button></li>
+  
+
+  
+  <li><button class="btn btn-default" id="pant_button" type="button">></button></li>
+
+</li>
+</ul>
+
+
+
+
+
+<!-- simple bot-->
+<a href="https://docs.google.com/drawings/d/1N594Qk0ORfjMafsUs-IsEHTk8vH46NfXZH8wQgmoVQw/edit?usp=sharing" target="_blank">
+<img id="bottom1" class="pant" src="https://docs.google.com/drawings/d/e/2PACX-1vSiIyDf5lxi8IgWhvfpXcLW88rTYuUFjsc2UzkV3v4CLE2qtxG7bee1OLF70W58y21HL3JzgIYX599L/pub?w=960&h=720" />
+</a>
+
+<!--heart bot -->
+<a href="https://docs.google.com/drawings/d/1yKb0APConqdN3aYrhTe3sAICIGSKl1VeqxZTUNswUXI/edit?usp=sharing" target="_blank">
+  <img id="bottom2"  class="pant" src="https://docs.google.com/drawings/d/e/2PACX-1vTdk7i07owtCeUOSUaI3eoReqgu0Nz0CXdstR7yLWGwNw4s0aMdB-JIGyTWYiiud7Kt5Eml8Tz-69gM/pub?w=960&h=720" />
+</a>
+
+<!--star bot-->
+<a href="https://docs.google.com/drawings/d/1N594Qk0ORfjMafsUs-IsEHTk8vH46NfXZH8wQgmoVQw/edit?usp=sharing" target="_blank">
+  <img id="bottom3" class="pant" src="https://docs.google.com/drawings/d/e/2PACX-1vQtJuATm0-AUAfO9nCbEDNHi_OwRKo7rHYO90g7AanV9Y9cYhohUfGtSawojHXlAGcpAFLmxM7jKnJi/pub?w=960&h=720" />
+</a>
+
+<!--Triangle Bot -->  
+<a href="https://docs.google.com/drawings/d/1ch8lCOQYlo4gzgt0mTAF12X1r0vr61RQA0oZt_r3g1k/edit?usp=sharing" target="_blank">
+  <img id="bottom4" style="z-index: 3" class="pant" src="https://docs.google.com/drawings/d/e/2PACX-1vRFZ0fsK-GNZYGK8fi5o3JHinFxMX46CJgqgRC3PobvUrV8Uvk9ppxqHnlt5H8M_FnHap1rzW8zWnOb/pub?w=960&h=720" />
+</a>
+
+
+<!-- rectangle bot -->  
+
+<a href="https://docs.google.com/drawings/d/1m1p0csm1x6Ww36hNRqvsjcvL8bOttE98TVFs0ws3N8k/edit?usp=sharing" target="_blank">
+  <img id="bottom5" class="pant" src="https://docs.google.com/drawings/d/e/2PACX-1vTMR2nexyWbtCTNxxxIZkCXRklW6QEQHDKQtzbGLpPUi6SPDFz_sqsy0MHyj9-T4T9u3xeUkp6WWga6/pub?w=960&h=720" />
+</a>
+
+<!-- Triangle Bot -->  
+
+<a href="https://docs.google.com/drawings/d/1ch8lCOQYlo4gzgt0mTAF12X1r0vr61RQA0oZt_r3g1k/edit?usp=sharing" target="_blank">
+  <img id="bottom6" class="pant" src="https://docs.google.com/drawings/d/e/2PACX-1vRFZ0fsK-GNZYGK8fi5o3JHinFxMX46CJgqgRC3PobvUrV8Uvk9ppxqHnlt5H8M_FnHap1rzW8zWnOb/pub?w=960&h=720" />
+</a>
+
+<!-- Hexagon Bot -->  
+
+<a href="https://docs.google.com/drawings/d/1_xo9j0a7S6tfXYCDOo-GWDS-5eXNLUT-7UhbDhCD7MY/edit?usp=sharing" target="_blank">
+  <img id="bottom7" class="pant" src="https://docs.google.com/drawings/d/e/2PACX-1vSIQ2_e5hFBIcUyexLxxhzliDnVxw_hW6yJcAH9SRLJAfByempNq8UeqhsYXNLhkl318uITjbV1RQGe/pub?w=960&h=720"/>
+</a>
+
+
+
+
+<script>
+  $(document).ready(function(){
+
+function ImageSwitcher(choices, i) {
+  i = 0;
+  
+  this.Next = function() {
+    hide_current_image();
+    show_next_image();
+  }
+  
+  var hide_current_image = function() {
+    if(choices){
+      choices[i].style.visibility = "hidden";
+      i += 1;
+    }
+  }
+  var show_next_image = function() {
+    if(choices){
+      if(i == (choices.length)) {
+        i = 0;
+      }
+      choices[i].style.visibility = "visible";
+    }
+  }
+}
+  
+    var pants = $(".pant");
+  var shirts = $(".shirt");
+  var backgrounds = $(".bg");
+
+  var shirt_picker = new ImageSwitcher(shirts);
+  document.getElementById("shirt_button").onclick = function() { shirt_picker.Next(); };
+  
+  var pants_picker = new ImageSwitcher(pants);
+  document.getElementById("pant_button").onclick = function() {pants_picker.Next(); };
+  
+  var bg_picker = new ImageSwitcher(backgrounds);
+  document.getElementById("bg_button").onclick = function() {bg_picker.Next(); };
+
+});
+
+  $("#shirt_button").click(function(){
+  $("#shirt-menu").css("visibility", "visible"); });
+
+</script>
+
+
+</body>
+</html>
